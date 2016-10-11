@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">RDP-01</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAABtkCc+yoJk6J5tg0hDDOXwAAAAACAAAAAAAQZgAAAAEAACAAAAAOWnlgm7DtKW8jhB0XZ7exaPuxsCDeTbsJFLlgF7u9SwAAAAAOgAAAAAIAACAAAACEgDGWCjilUNzcj1/3dA2QbIUOu/vxy78quCIYCERlv5AAAADtiGPoI6pEYVOPgb3ulGrl0aX2eedW6phEQPZKvrj0TDSx1Y+HNPgpE0ht9nuO8I3LIW0423NTk6g/hQ/5Sop1JMa5GtXITpH516SAuoMqHfbIqqO2Y75KEAnGt7CrtYVsLzoNvyrPIaJOSOlUXgM8UeAd7sTgPEFfWnyRKh4VpxPUz3CDN2nLARJX9c+7SLNAAAAAyVSGsLGeTlkSvUO/JibsosM/svSXFO42WRgbv8ELdpzt3XFqnCGrK0YA4/ZlCqudNZY9zVQfTGehD9/goeNOSw==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAABtkCc+yoJk6J5tg0hDDOXwAAAAACAAAAAAAQZgAAAAEAACAAAADpJ37CZVwPV1385G7pEgngNJpnpiLieeZqaEMSGSIDbwAAAAAOgAAAAAIAACAAAABAdr6rO8hsaw1FhdOrOAnyNDMyUy826/FhbJr4TQAeeZAAAADfLk66iPJn2fPilV0B+xil6DDP1rR6kpyPVNAulYeRJazabnKxBrCU4uUH0UHftZqePcKDBpW+H5yfMtbQkk/8YrvnbD+xPHb2ClXUWtniRLLd3UWBggxU50eP9HrCR17whoeQq89hNtga/Fchi+/ofXRujUkwKJIJJEJZo26sjrLf7Jt6eUk7eehsKZcwQxxAAAAA6HeuVxRFgEAheaObUO/NcB9ZEqR2kst/w48/4GYb/6tt/60PWKFT3SeBIV4GCBozEUZOL48fXiwsklhBvASjxg==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -70,7 +70,13 @@
         <ConnectionSecurityMappings />
         <DatabaseStorageLocations />
         <TargetServerVersion>SQLServer2016</TargetServerVersion>
-        <ParameterConfigurationValues />
+        <ParameterConfigurationValues>
+          <ConfigurationSetting>
+            <Id>LastModifiedTime</Id>
+            <Name>LastModifiedTime</Name>
+            <Value xsi:type="xsd:dateTime">2016-10-10T21:49:40.8327888Z</Value>
+          </ConfigurationSetting>
+        </ParameterConfigurationValues>
       </Options>
     </Configuration>
   </Configurations>
